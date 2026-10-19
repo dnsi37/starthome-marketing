@@ -9,7 +9,7 @@
 ## 구조
 
 ```
-cards/YYYY-MM/<slug>/01.png … 06.png   # 카드뉴스 (1080×1350 또는 1080×1080)
+cards/YYYY-MM/<slug>/01.jpg … 10.jpg   # 카드뉴스 JPEG (1080×1350 또는 1080×1080, 인스타 API는 JPEG만 받음)
 reels/YYYY-MM/<slug>.mp4               # 릴스 (9:16, H.264+AAC, 90초 이하, 100MB 미만)
 blog/YYYY-MM-DD-<slug>/post.md         # 네이버 블로그 패키지 (meta.json, images/01.jpg …). 대표가 Claude in Chrome으로 붙여 발행
 ```
